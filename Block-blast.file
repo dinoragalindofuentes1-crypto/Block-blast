@@ -1,67 +1,44 @@
-// Block Blast Game
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Block Blast and Mini Games</title>
+    <style>
+        canvas { border: 1px solid black; }
+    </style>
+</head>
+<body>
+    <h1>Welcome to Block Blast and Mini Games!</h1>
+    <p>This is a collection of games optimized for various platforms.</p>
 
-// Main menu
-function showMainMenu() {
-    console.log('Welcome to Block Blast!');
-    console.log('1. Classic');
-    console.log('2. Beat Your World Record');
-    console.log('3. Adventure');
-    var choice = getUserInput();
-    handleMenuChoice(choice);
-}
+    <h2>Block Blast Game</h2>
+    <canvas id="blockBlast" width="600" height="400"></canvas>
+    <script>
+        // Block Blast Game Logic Here
+    </script>
 
-// Handle menu choice
-function handleMenuChoice(choice) {
-    switch(choice) {
-        case 1:
-            startClassicMode();
-            break;
-        case 2:
-            beatYourRecord();
-            break;
-        case 3:
-            startAdventureMode();
-            break;
-        default:
-            console.log('Invalid choice, please try again.');
-            showMainMenu();
-    }
-}
+    <h2>Tic Tac Toe with AI</h2>
+    <canvas id="ticTacToe" width="300" height="300"></canvas>
+    <script>
+        // Tic Tac Toe Game Logic Here
+    </script>
 
-// Classic mode
-function startClassicMode() {
-    console.log('Starting Classic Mode...');
-    // Game logic for Classic mode
-}
+    <h2>Guess the Color</h2>
+    <p>Guess the correct color based on the hint given!</p>
+    <script>
+        // Guess the Color Game Logic Here
+    </script>
 
-// Beat Your World Record mode
-function beatYourRecord() {
-    console.log('See if you can beat your best score!');
-    // Logic to compare scores
-}
+    <h2>Other Mini Games</h2>
+    <p>1. Game 1</p>
+    <p>2. Game 2</p>
+    <p>3. Game 3</p>
+    <p>4. Game 4</p>
+    <p>5. Game 5</p>
 
-// Adventure mode
-function startAdventureMode() {
-    console.log('Starting Adventure Mode...');
-    for (let level = 1; level <= 100; level++) {
-        console.log('Level ' + level + ' - good luck!');
-        // Game logic for each level with progressive difficulty
-    }
-}
-
-// High score system
-let highScores = [];
-function updateHighScore(score) {
-    highScores.push(score);
-    highScores.sort((a, b) => b - a);
-    if (highScores.length > 10) highScores.pop(); // keep top 10 only
-}
-
-// Graphics functionality
-function setGraphics() {
-    // Code for enhanced graphics with vibrant colors
-}
-
-showMainMenu();
-
-// Additional game functionalities would go here...
+    <script>
+        // Other games' logic can be added here
+    </script>
+</body>
+</html>
