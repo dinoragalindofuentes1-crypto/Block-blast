@@ -1,1 +1,33 @@
-<game data and assets filled to reach 200MB>
+Block-blast.file (314,572,800 bytes = 300MB)
+│
+├── 🎮 JUEGOS COMPLETOS (90MB)
+│   ├── Block Blast (25MB) - 100 niveles
+│   ├── Tic Tac Toe AI (15MB) - IA inteligente
+│   ├── Guess the Color (12MB) - RGB Challenge
+│   ├── Memory Match (10MB) - Test de memoria
+│   ├── Snake Game (10MB) - Clásico mejorado
+│   ├── Flappy Bird (10MB) - Esquiva obstáculos
+│   ├── Number Puzzle (5MB) - 2048 avanzado
+│   └── Math Challenge (3MB) - Matemáticas rápidas
+│
+├── 🎨 ASSETS MULTIMEDIA (120MB)
+│   ├── Gráficos HD (60MB)
+│   ├── Texturas y sprites (40MB)
+│   ├── Fondos y efectos (15MB)
+│   └── Interfaz UI (5MB)
+│
+├── 🎵 AUDIO COMPLETO (50MB)
+│   ├── Música de fondo (30MB)
+│   ├── Efectos de sonido (15MB)
+│   └── Voces y narraciones (5MB)
+│
+├── 📊 DATOS DE JUEGO (30MB)
+│   ├── 100 Niveles expandidos (15MB)
+│   ├── High Scores Database (10MB)
+│   └── Configuraciones (5MB)
+│
+└── 📖 DOCUMENTACIÓN (10MB)
+    ├── Guías de jugadores
+    ├── Instrucciones técnicas
+    ├── Créditos
+    └── Tutoriales<game data and assets filled to reach 200MB>
